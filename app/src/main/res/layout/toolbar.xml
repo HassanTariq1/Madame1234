@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:background="#f8fcf5"
+
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#0982c1">
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:layout_weight="3"
+            android:src="@drawable/sizekia" />
+
+        <ImageView
+            android:id="@+id/bag"
+            android:layout_width="60dp"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+
+            android:layout_weight="20"
+            android:src="@drawable/shpppp" />
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="50dp"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:src="@drawable/newgree"
+
+            />
+
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>
